@@ -1,0 +1,80 @@
+/*features start*/
+.features{
+	margin-bottom: 100px;
+}
+.section_heading{
+	width: 70%;
+	font-family: sans-serif;
+	/*border: 1px solid red;*/
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 70px;
+}
+.section_heading h1{
+	text-transform: uppercase;
+}
+.section_heading p{
+	color: #A7A8A7;
+}
+.whole_row{
+	/*border: 1px solid red;*/
+}
+/*first row start*/
+/*item1 start*/
+.first_row{
+	overflow: hidden;
+	/*border: 1px solid red;*/
+}
+.item1{
+	font-family: sans-serif;
+	border: 1px solid red;
+	width: 30%;
+	text-align: center;
+	float: left;
+	padding: 1.07%;
+    margin: 0.5%;
+}
+.item1 img{
+	width: 30%;
+}
+.item1 h2{
+	font-weight: 550;
+	text-transform: capitalize;
+}
+.item1 p{
+	font-size: 17px;
+	color: #A7A8A7;
+}
+
+/*item1 end*/
+/*first row end*/
+.second_row{
+	overflow: hidden;
+	margin: 40px 0;
+	/*border: 1px solid red;*/
+}
+.see_all{
+	width: 25%;
+	min-height: 45px;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+	margin-top: 55px;
+	margin-bottom: 70px;
+}
+	
+
+	
+.see_all button{
+	width: 100%;
+	min-height: 45px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	color: white;
+	background-color: #C12442;
+	cursor: pointer;
+	border: none;
+}
+.see_all button:focus{
+	outline: 0;
+}
+/*features end*/
